@@ -64,8 +64,31 @@ namespace Mission07
 
             app.UseEndpoints(endpoints =>
             {
+                // endpoint with both page num and category
+                endpoints.MapControllerRoute(
+                    "typePage",
+                    "{bookCat}/Page{pageNum}",
+                    new { Controller = "Home", Action = "Index" }
+                );
+
+                // endpoint in the case of page num and no category
+                endpoints.MapControllerRoute(
+                    "Paging",
+                    "Page{pageNum}",
+                    new { Controller = "Home", Action = "Index", pageNum = 1 }
+                );
+
+                // endpoint in the case of category and no page num
+                endpoints.MapControllerRoute(
+                    "type",
+                    "{projectType}",
+                    new { Controller = "Home", Acton = "Index", pageNum = 1 }
+                );
+
+                // endpoint to manage route
                 endpoints.MapDefaultControllerRoute();
 
+                // endpoint to manage razor pages
                 endpoints.MapRazorPages();
             });
         }
