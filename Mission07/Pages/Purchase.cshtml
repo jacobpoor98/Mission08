@@ -15,6 +15,7 @@
         </tr>
     </thead>
 
+    @* display the title, quantity, total, and price for each book *@
     <tbody>
         @foreach(var i in Model.basket.Items)
         {
@@ -27,6 +28,7 @@
         }
     </tbody>
 
+    @* calculate the price of the book by referencing the Calculate Total function *@
     <tfoot>
         <tr>
             <td colspan="3">Total: </td>

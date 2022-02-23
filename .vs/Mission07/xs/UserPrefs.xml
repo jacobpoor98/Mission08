@@ -1,33 +1,28 @@
 ﻿<Properties StartupConfiguration="{6A21751D-2A49-4777-9929-72C2454BAF2B}|Default">
   <MonoDevelop.Ide.ItemProperties.Mission07 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission07/Views/Shared/Components/Cat/Default.cshtml">
-    <Files>
-      <File FileName="Mission07/Views/Shared/_Layout.cshtml" Line="15" Column="25" />
-      <File FileName="Mission07/Views/Shared/Components/Cat/Default.cshtml" Line="11" Column="5" />
-      <File FileName="Mission07/Views/Shared/BookSummary.cshtml" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission07" expanded="True">
             <Node name="Mission07" expanded="True">
               <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="ViewModels" expanded="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Purchase.cshtml" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="Components" expanded="True">
-                    <Node name="Cat" expanded="True">
-                      <Node name="Default.cshtml" selected="True" />
-                    </Node>
+                    <Node name="Cat" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
