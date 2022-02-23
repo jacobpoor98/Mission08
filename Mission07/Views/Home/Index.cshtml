@@ -1,0 +1,27 @@
+﻿@model BooksViewModel
+
+<h1>The Book Collection</h1>
+
+<div class="container">
+    @foreach (Book b in Model.Books)
+    {
+        @* calls on books model to generate a dynamic list of books *@
+        <div class="bg-dark text-white p-2">
+            <h3>@b.Title</h3>
+        </div>
+        <div class="card card-outline-primary m-1 p-1">
+            <ul>
+                <li>Author: @b.Author</li>
+                <li>Publisher: @b.Publisher</li>
+                <li>ISBN: @b.Isbn</li>
+                <li>Classification/Category: @b.Classification/@b.Category</li>
+                <li>Number of Pages: @b.PageCount</li>
+                <li>Price: $@b.Price</li>
+            </ul>
+        </div>
+        <br />
+    }
+</div>
+
+@* this is created via the paginationTagHelper.cs page *@
+<div page-book="@Model.PageInfo" page-action="Index"></div>
