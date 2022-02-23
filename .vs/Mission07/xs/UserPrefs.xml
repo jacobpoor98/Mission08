@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{6A21751D-2A49-4777-9929-72C2454BAF2B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Mission07 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission07/Pages/_ViewImports.cshtml">
+    <Files>
+      <File FileName="Mission07/Views/Home/Index.cshtml" Line="10" Column="6" />
+      <File FileName="Mission07/Views/Shared/BookSummary.cshtml" Line="26" Column="98" />
+      <File FileName="Mission07/Views/Shared/Components/Types/Default.cshtml" Line="18" Column="7" />
+      <File FileName="Mission07/Startup.cs" Line="69" Column="43" />
+      <File FileName="Mission07/Pages/Purchase.cshtml" Line="1" Column="1" />
+      <File FileName="Mission07/Pages/Purchase.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Mission07/Pages/_PurchaseLayout.cshtml" Line="1" Column="1" />
+      <File FileName="Mission07/Pages/_ViewImports.cshtml" Line="3" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission07" expanded="True">
+            <Node name="Mission07" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="_ViewImports.cshtml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

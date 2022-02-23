@@ -34,6 +34,12 @@ namespace Mission07
             });
 
             services.AddScoped<IBookProjectRepository, EFBookProjectRepository>();
+
+            services.AddRazorPages();
+
+            // allows us to store a cache of the cart items a user adds
+            services.AddDistributedMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,11 +58,15 @@ namespace Mission07
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            app.UseSession();
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
+
+                endpoints.MapRazorPages();
             });
         }
     }
