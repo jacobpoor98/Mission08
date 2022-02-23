@@ -1,7 +1,5 @@
 ﻿@model BooksViewModel
 
-<h1>The Book Collection</h1>
-
 <div class="container">
     @foreach (Book b in Model.Books)
     {
@@ -11,4 +9,6 @@
 </div>
 
 @* this is created via the paginationTagHelper.cs page *@
-<div page-book="@Model.PageInfo" page-action="Index"></div>
+<div page-book="@Model.PageInfo" page-action="Index" page-class="btn"
+     page-class-normal="btn-outline-dark" page-class-selected="btn-primary"
+     page-class-enabled="true" class="btn-group pull-right m-1"></div>

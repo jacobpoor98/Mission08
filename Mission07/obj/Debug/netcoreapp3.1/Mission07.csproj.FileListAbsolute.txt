@@ -185,4 +185,4 @@
 /Users/jacob.poor98/Documents/GitHub/Mission08/Mission07/obj/Debug/netcoreapp3.1/Razor/Pages/_PurchaseLayout.cshtml.g.cs
 /Users/jacob.poor98/Documents/GitHub/Mission08/Mission07/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/jacob.poor98/Documents/GitHub/Mission08/Mission07/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
-/Users/jacob.poor98/Documents/GitHub/Mission08/Mission07/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Types/Default.cshtml.g.cs
+/Users/jacob.poor98/Documents/GitHub/Mission08/Mission07/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Cat/Default.cshtml.g.cs

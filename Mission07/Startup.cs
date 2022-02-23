@@ -81,7 +81,7 @@ namespace Mission07
                 // endpoint in the case of category and no page num
                 endpoints.MapControllerRoute(
                     "type",
-                    "{projectType}",
+                    "{bookCat}",
                     new { Controller = "Home", Acton = "Index", pageNum = 1 }
                 );
 

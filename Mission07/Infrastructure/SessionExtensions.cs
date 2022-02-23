@@ -7,7 +7,7 @@ namespace Mission07.Infrastructure
     // create static class that will store session data
     public static class SessionExtensions
     {
-        public static void SetJson(this ISession session, string key, object value)
+        public static void SetJson (this ISession session, string key, object value)
         {
             session.SetString(key, JsonSerializer.Serialize(value));
         }
